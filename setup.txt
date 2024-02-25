@@ -1,0 +1,10 @@
+sudo rm -rf LCD-show
+git clone https://github.com/goodtft/LCD-show.git
+chmod -R 755 LCD-show
+cd LCD-show/
+sudo ./MPI3508-show
+pip3 install pyinstaller
+
+pyinstaller cozmo.py --onefile
+
+CEA mode 17 720x576 50Hz 4:3

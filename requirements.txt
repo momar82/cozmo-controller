@@ -1,0 +1,6 @@
+pygame
+pywifi
+subprocess
+platform
+pycozmo
+time
